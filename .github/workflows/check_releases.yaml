@@ -31,7 +31,7 @@ jobs:
 
       - name: Setup Python
         if: steps.check.outputs.new_release == 'true' && steps.check.outputs.hash != ''
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           cache: pip
 

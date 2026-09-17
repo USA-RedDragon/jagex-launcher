@@ -18,6 +18,6 @@ jobs:
       contents: read
     name: AutoRebase
     steps:
-      - uses: Label305/AutoRebase@v0.1
+      - uses: Label305/AutoRebase@e2bf9fd616286d8feddcaba773a8f2ea9011c745 # v0.1
         with:
           github_token: ${{ secrets.PAT }}

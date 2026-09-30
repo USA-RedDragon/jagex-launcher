@@ -1,4 +1,4 @@
 aiohttp==3.14.3
 aiohttp-retry==2.9.1
-cryptography==43.0.3
+cryptography==46.0.7
 jwcrypto==1.5.8
